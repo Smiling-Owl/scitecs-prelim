@@ -1,0 +1,74 @@
+@font-face {
+    font-family: Play Fair Display;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+body{
+   background-color: black;
+}
+#icons{
+    font-size: 30px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display; 
+}
+#question{
+    font-size: 50px;
+    color: rgb(247, 241, 241);
+    font-family: Play Fair Display;
+    font-weight: 500;
+}
+#info{
+    font-size: 40px;
+    color: rgb(247, 241, 241);
+    font-family: Play Fair Display;
+    font-weight: 450;
+}
+.gallery{
+    display:inline-block;
+    margin: 20px;
+    position: absolute;
+    left: 250px;
+}
+.gallery img{
+    -webkit-filter: grayscale(100%);
+    filter:grayscale(100%);
+    width: 17%;
+    height:auto;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin:0px;
+    overflow: h;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+}
+.navbar li{
+    float: right;
+}
+
+@media (max-width:500px){
+    #icons{
+        font-size: 1.4rem;
+    }
+    .navbar{
+        font-size: 1rem;
+    }
+    #question{
+        font-size: 2.5rem;
+    }
+    #info{
+        font-size: 1.5rem;
+    }
+    .gallery{
+        display:grid;
+        width: 300%;
+        margin: 5px;
+        left: 90px;
+        right:0px;
+    }
+}

@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Play Fair Display;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+body{
+    background-color: black;
+}
+#icons{
+    text-shadow: 7px 3px 5px rgb(157, 25, 209), -8px -3px 5px rgb(218, 32, 32), 3px 5px 5px rgb(247, 232, 31), 5px -5px 5px rgb(31, 196, 31) ;
+    font-size:  30px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+}
+#text{
+    text-shadow: 7px 3px 5px rgb(157, 25, 209), -8px -3px 5px rgb(218, 32, 32), 3px 5px 5px rgb(247, 232, 31), 5px -5px 5px rgb(31, 196, 31) ;
+    font-size: 60px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+}
+#description{
+    font-size: 45px;
+    color: rgb(247, 241, 241);
+    font-family: Play Fair Display;
+}
+.infomain{
+    font-size: 50px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+    border:1px double;
+    padding: 5px;
+    height:auto;
+    width: auto;
+    text-align: center;
+}
+.info{
+    font-size: 50px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+    border:1px dotted;
+    padding: 10px;
+    height:auto;
+    width: auto;
+}
+.footer{
+    font-size: 30px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+}
+.innerpic{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin:0px;
+    overflow: h;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+}
+.navbar li{
+    float: right;
+}
+
+@media (max-width:500px){
+    #icons{
+        font-size: 1.4rem;
+    }
+    .navbar{
+        font-size: 1rem;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+    #text{
+        font-size:2.5rem;
+    }
+    .infomain{
+        font-size: 1.5rem;
+    }
+    .info{
+        font-size: 1.5rem;
+    }
+    #description{
+        font-size: 1.5rem;
+    }
+    .footer{
+        font-size: 1rem;
+    }
+}

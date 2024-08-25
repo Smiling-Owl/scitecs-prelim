@@ -1,0 +1,75 @@
+@font-face {
+    src: url(fonts/BebasNeue-Regular.ttf);
+    font-family: Bebas Nue;
+}
+@font-face {
+    font-family: Play Fair Display;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: Frijole;
+    src: url(fonts/Frijole-Regular.ttf);
+}
+@font-face {
+    font-family: Zen Tokyo;
+    src: url(fonts/ZenTokyoZoo-Regular.ttf);
+}
+a:link{
+    text-decoration: none;
+}
+h1{
+    text-shadow: 14px 4px 4px rgb(157, 25, 209), -13px -4px 4px rgb(218, 32, 32), 6px 8px 4px rgb(247, 232, 31), -9px -8px 4px rgb(31, 196, 31) ;
+    font-size: 240px;
+    color:#BCC6CC;
+    font-family: Frijole, Garamond;
+    text-align: left;
+}
+body{
+    background-color: black;
+    text-decoration: none;
+}
+#underline{
+    font-weight: 1px;
+}
+
+#timeperiod1{
+    text-shadow: 7px 3px 5px rgb(157, 25, 209), -8px -3px 5px rgb(218, 32, 32), 3px 5px 5px rgb(247, 232, 31), 5px -5px 5px rgb(31, 196, 31) ;
+    font-size: 90px;
+    color:#BCC6CC;
+    font-family: Play Fair Display, Garamond;
+    text-align: right;
+}
+#timeperiod2{
+    text-shadow: 7px 3px 5px rgb(157, 25, 209), -8px -3px 5px rgb(218, 32, 32), 3px 5px 5px rgb(247, 232, 31), 5px -5px 5px rgb(31, 196, 31) ;
+    font-size: 90px;
+    color:#BCC6CC;
+    font-family: Play Fair Display, Garamond;
+    text-align: right;
+}
+#timeperiod3{
+    text-shadow: 7px 3px 5px rgb(157, 25, 209), -8px -3px 5px rgb(218, 32, 32), 3px 5px 5px rgb(247, 232, 31), 5px -5px 5px rgb(31, 196, 31) ;
+    font-size: 90px;
+    color:#BCC6CC;
+    font-family: Play Fair Display, Garamond;
+    text-align: right;
+}
+
+
+@media (max-width:500px){
+    h1{
+        font-size: 5rem;
+        text-align: center;
+    }
+    #timeperiod1{
+        font-size: 3rem;
+        text-align: center;
+    }
+    #timeperiod2{
+        font-size: 3rem;
+        text-align: center;
+    }
+    #timeperiod3{
+        font-size: 3rem;
+        text-align: center;
+    }
+}

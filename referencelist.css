@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Play Fair Display;
+    src: url(fonts/PlayfairDisplay-VariableFont_wght.ttf);
+}
+body{
+    background-color: black;
+}
+#icons{
+    text-shadow: 7px 3px 5px rgb(157, 25, 209), -8px -3px 5px rgb(218, 32, 32), 3px 5px 5px rgb(247, 232, 31), 5px -5px 5px rgb(31, 196, 31) ;
+    font-size:  30px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin:0px;
+    overflow: h;
+}
+.navbar a{
+    color:white;
+    text-decoration: none;
+    padding:15px;
+    display: block;
+}
+.navbar li{
+    float: right;
+}
+.info{
+    font-size: 30px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+    text-align: left;
+    height:auto;
+    width: auto;
+}
+p{
+    font-size: 30px;
+    color:rgb(247, 241, 241);
+    font-family: Play Fair Display;
+    text-align: left;
+    height:auto;
+    width: auto;
+}
+@media (max-width:500px){
+    #icons{
+        font-size: 1.4rem;
+    }
+    .navbar{
+        font-size: 1rem;
+    }
+    .info{
+        font-size: 1.5rem;
+    }
+}
